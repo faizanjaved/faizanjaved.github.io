@@ -1,3 +1,24 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "awesome-identity"
+baseURL = "https://faizanjaved.github.io"
+title = "Syed Faizan Javed - SDET"
+
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/portrait-default.png"
+  firstname = "Syed"
+  lastname = "Faizan Javed"
+  title = "Software Engineer in Test"
+  bio = """Software Engineer in Test with more than 8 years of experience in design, development and support for web, mobile and API test automation frameworks.
+
+  """
+
+## Contacts Configurations
+[params.contacts]
+  email = "faixanjaved@gmail.com"
+  github = "faizan.javed"
+  linkedin = "faizan-javed"
+
+## Footer Configurations
+[params.footer]
+  poweredBy = false
